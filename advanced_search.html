@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="google_search_stylesheet.css">
+    </head>
+    <body>
+    <div>    
+        <img id="logo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
+    </div>
+    <br>
+    <br>
+    <div>
+        <label id="page_descript" style="margin-left:10px">Advanced Search</label>
+    </div>
+    <br>
+    <div class="line-break"></div>
+    <br>
+    <div class="table-title">
+        Find pages with...
+    </div>
+        <div>
+            <ul id="descript_list">
+                <li>all these words:</li>
+                <li>this exact word or phrase:</li>
+                <li>any of these words:</li>
+                <li>none of these words:</li>
+            </ul>
+            <ul class="ad_list">
+                <li>
+                    <form class="advanced_search" method="GET" action="https://www.google.com/search">
+                        <input type="input" name="as_q">
+                        <input type="submit" value="All of these Words">
+                    </form>
+                </li>
+                <li>
+                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
+                        <input type="input" name="as_epq">
+                        <input type="submit" value="this exact word or phrase">
+                    </form>
+                </li>
+                <li>
+                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
+                        <input type="input" name="as_oq">
+                        <input type="submit" value="any of these words">
+                    </form>
+                </li>
+                <li>
+                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
+                        <input type="input" name="as_eq">
+                        <input type="submit" value="none of these words">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
