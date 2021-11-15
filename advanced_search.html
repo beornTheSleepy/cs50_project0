@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="google_search_stylesheet.css">
     </head>
     <body>
-    <h1>IS this now tracking properly?</h1>
     <div>    
         <img id="logo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
     </div>
@@ -20,39 +19,36 @@
     <div class="table-title">
         Find pages with...
     </div>
-        <div>
-            <ul id="descript_list">
-                <li>all these words:</li>
-                <li>this exact word or phrase:</li>
-                <li>any of these words:</li>
-                <li>none of these words:</li>
-            </ul>
-            <ul class="ad_list">
-                <li>
-                    <form class="advanced_search" method="GET" action="https://www.google.com/search">
-                        <input type="input" name="as_q">
-                        <input type="submit" value="All of these Words">
-                    </form>
-                </li>
-                <li>
-                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
-                        <input type="input" name="as_epq">
-                        <input type="submit" value="this exact word or phrase">
-                    </form>
-                </li>
-                <li>
-                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
-                        <input type="input" name="as_oq">
-                        <input type="submit" value="any of these words">
-                    </form>
-                </li>
-                <li>
-                    <form class="advanced_search"  method="GET" action="https://www.google.com/search">
-                        <input type="input" name="as_eq">
-                        <input type="submit" value="none of these words">
-                    </form>
-                </li>
-            </ul>
-        </div>
+        <ul id="descript_list">
+            <li>all these words:</li>
+            <li>this exact word or phrase:</li>
+            <li>any of these words:</li>
+            <li>none of these words:</li>
+        </ul>
+        <ul class="ad_list">
+            <fieldset class="ad_search_forms">
+                <form class="advanced_search" action="https://www.google.com/search" method="GET">
+            <li>
+                <input type="input" name="as_q">
+            </li>
+            <li>
+                <input type="input" name="as_epq">
+            </li>
+            <li>
+                <input type="input" name="as_oq">
+            </li>
+            <li>
+                <input type="input" name="as_eq">
+            </li>
+            <input id="ad_button" type="submit" value="Advanced Search">
+            </fieldset>
+        </ul>
+        <ul id="instruct_list">
+            <li>Type the important words: <span class="words">tri-colour rat terrier</span></li>
+            <li>Put exact words in quotes: <span class="words">"rat terrier"</span></li>
+            <li>Type <span class="words">OR</span> between words you want: <span class="words">miniture OR standard</span></li>
+            <li>Put a minus sign just before words that you don't want: <span class="words">-rodent, -"Jack Russell"</span></li>
+        </ul>
+    </div>
     </body>
 </html>

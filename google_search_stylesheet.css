@@ -15,7 +15,7 @@
 }
 
 .ad_list li {
-    padding: 14px;
+    padding: 13px;
 }
 
 #descript_list {
@@ -66,11 +66,52 @@
     padding-left: 40px;
 }
 
+
+.search_tip {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .ad_search_forms {
     border: none;
 }
 
 #ad_button {
-    align: right;
-    color: khaki;
+    box-shadow: none;
+    background-color: #4d90fe;
+    color: white;
+    padding: 8px;
+    border: 1px solid #3079ed;
+    font-family: Roboto,arial,sans-serif;
+    float: right;
+    margin: 10px 10px 0 0;
+    color: $white;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    border-radius: 2px;
+    height: 30px;
+    min-width: 120px;
 }
+
+#instruct_list {
+    margin-left: -50px;
+    margin-top: 19px;
+    font-size: 11px;
+    font-family: arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #555;
+    list-style-type: none;
+    float: left;
+    line-height: 48px;
+}
+
+.words {
+    font-family: monospace;
+    font-size: 11px;
+    color: #666;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
