@@ -93,6 +93,7 @@
     border-radius: 2px;
     height: 30px;
     min-width: 120px;
+    src: url(https://fonts.googleapis.com/css) (family=Roboto:500);
 }
 
 #instruct_list {
@@ -113,5 +114,3 @@
     font-size: 11px;
     color: #666;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:500);
